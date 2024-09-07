@@ -64,3 +64,6 @@ captures/
 
 # Google Services (e.g. APIs or Firebase)
 # google-services.json
+app/src/dev/google-services.json
+app/src/production/google-services.json
+app/src/google-services.json
