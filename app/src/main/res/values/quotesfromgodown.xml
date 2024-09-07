@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="godown_quotes">
+
+        <item>To live a creative life, we must lose our fear of being wrong.\nAnonymous </item>
+        <item>The successful warrior is the average man, with laser-like focus.\nBruce Lee </item>
+        <item>There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed.\nRay Goforth </item>
+        <item>If you don\'t design your own life plan, chances are you\'ll fall into someone else\'s plan. And guess what they have planned for you? Not much.\nJim Rohn   </item>
+        <item>Success does not consist in never making mistakes but in never making the same one a second time.\nGeorge Bernard Shaw   </item>
+        <item>Motivation is what gets you started. Habit is what keeps you going.\nJim Ryun    </item>
+        <item>You may have to fight a battle more than once to win it.\nMargaret Thatcher  </item>
+        <item>Life is what happens when you\'re busy making other plans.\nJohn Lennon; </item>
+        <item>Never let the fear of striking out keep you from playing the game.\nBabe Ruth    </item>
+        <item>Get busy living or get busy dying.\nStephen King </item>
+        <item>Many of life\'s failures are people who did not realize how close they were to success when they gave up.\nThomas A. Edison  </item>
+        <item>You only live once, but if you do it right, once is enough.\nMae West    </item>
+        <item>The foolish and the dead alone never change their opinions.\nJames Russell Lowell    </item>
+        <item>Build your own dreams, or someone else will hire you to build theirs.\nFarrah Gray       </item>
+        <item>“Doing the best at this moment puts you in the best place for the next moment.”\nOprah Winfrey   </item>
+        <item>“Our greatest glory is not in never falling, but in rising every time we fall.”\nOliver Goldsmith    </item>
+        <item>“Do not be embarrassed by your failures, learn from them and start again.”\nRichard Branson  </item>
+        <item>“Success is simple. Do what’s right, the right way, at the right time.”\nArnold H. Glasgow   </item>
+        <item>“Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.”\nThomas A. Edison    </item>
+        <item>“The best revenge is massive success.”\nFrank Sinatra    </item>
+
+        <item>“Successful people do what unsuccessful people are not willing to do. Don’t wish it were easier; wish you were better.”\nJim Rohn    </item>
+        <item>“Let the improvement of yourself keep you so busy that you have no time to criticize others.”\nRoy T. Bennett    </item>
+        <item>The greatest discovery of all time is that a person can change his future by merely changing his attitude.\nOprah Winfrey    </item>
+        <item>"Arise! Awake! and stop not until the goal is reached.\nSwami Vivekananda"   </item>
+        <item>All our dreams can come true if we have the courage to pursue them.\nWalt Disney </item>
+        <item>Good things come to people who wait, but better things come to those who go out and get them.\nAnonymous </item>
+        <item>If you do what you always did, you will get what you always got.\nAnonymous  </item>
+        <item>Success is walking from failure to failure with no loss of enthusiasm.\nWinston Churchill    </item>
+        <item>Opportunities don\'t happen, you create them.\nChris Grosser </item>
+        <item>Great minds discuss ideas; average minds discuss events; small minds discuss people.\nEleanor Roosevelt  </item>
+        <item>If you don\'t value your time, neither will others. Stop giving away your time and talents- start charging for it.\nKim Garst    </item>
+        <item>No one can make you feel inferior without your consent.\nEleanor Roosevelt   </item>
+        <item>The ones who are crazy enough to think they can change the world, are the ones that do.\nAnonymous   </item>
+        <item>What seems to us as bitter trials are often blessings in disguise.\n Oscar Wilde </item>
+        <item>When you stop chasing the wrong things you give the right things a chance to catch you.\nLolly Daskal    </item>
+        <item>Don\'t be afraid to give up the good to go for the great.\nJohn D. Rockefeller   </item>
+        <item>If you can\'t explain it simply, you don\'t understand it well enough.\nAlbert Einstein  </item>
+        <item>Life is not about finding yourself. Life is about creating yourself.\nLolly Daskal   </item>
+        <item>I find that the harder I work, the more luck I seem to have.\nThomas Jefferson   </item>
+        <item>The starting point of all achievement is desire.\nNapolean Hill  </item>
+        <item>We become what we think about most of the time, and that\'s the strangest secret.\nEarl Nightingale  </item>
+        <item>The only place where success comes before work is in the dictionary.\nVidal Sassoon  </item>
+
+
+        <item>The successful warrior is the average man, with laser-like focus.\nBruce Lee  </item>
+        <item>You only live once, but if you do it right, once is enough.\nMae West    </item>
+        <item>The foolish and the dead alone never change their opinions.    \nJames Russell Lowell    </item>
+        <item>Build your own dreams, or someone else will hire you to build theirs.\nFarrah Gray       </item>
+        <item>“Doing the best at this moment puts you in the best place for the next moment.” – Oprah Winfrey  </item>
+        <item>“Our greatest glory is not in never falling, but in rising every time we fall.” \nOliver Goldsmith   </item>
+        <item>“Do not be embarrassed by your failures, learn from them and start again.”  \nRichard Branson    </item>
+        <item>“Success is simple. Do what’s right, the right way, at the right time.” \nArnold H. Glasgow  </item>
+        <item>“Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.” \nThomas A. Edison   </item>
+        <item>“The best revenge is massive success.” \nFrank Sinatra   </item>
+        <item>The successful warrior is the average man, with laser-like focus. \nBruce Lee    </item>
+        <item>Success does not consist in never making mistakes but in never making the same one a second time. \nGeorge Bernard Shaw  </item>
+        <item>Motivation is what gets you started. Habit is what keeps you going. \nJim Ryun   </item>
+        <item>You may have to fight a battle more than once to win it. \nMargaret Thatcher </item>
+        <item>Life is what happens when you\'re busy making other plans. \nJohn Lennon;    </item>
+        <item>Never let the fear of striking out keep you from playing the game. \nBabe Ruth   </item>
+        <item>Get busy living or get busy dying. \nStephen King   </item>
+        <item>Many of life\'s failures are people who did not realize how close they were to success when they gave up. \nThomas A. Edison    </item>
+        <item>“Successful people do what unsuccessful people are not willing to do. Don’t wish it were easier; wish you were better.” \nJim Rohn   </item>
+        <item>“Let the improvement of yourself keep you so busy that you have no time to criticize others.” \nRoy T. Bennett   </item>
+        <item>The greatest discovery of all time is that a person can change his future by merely changing his attitude.  \nOprah Winfrey  </item>
+        <item>"Allow yourself to be proud of yourself and all the progress you\'ve made Especially the progress that no one else has seen. \nUnknown"   </item>
+        <item>"Arise! Awake! and stop not until the goal is reached.
+\nSwami Vivekananda"   </item>
+        <item>All our dreams can come true if we have the courage to pursue them. \nWalt Disney    </item>
+        <item>Good things come to people who wait, but better things come to those who go out and get them. \nAnonymous    </item>
+        <item>If you do what you always did, you will get what you always got. \nAnonymous </item>
+        <item>Success is walking from failure to failure with no loss of enthusiasm. \nWinston Churchill   </item>
+        <item>Opportunities don\'t happen, you create them. \nChris Grosser    </item>
+        <item>Great minds discuss ideas; average minds discuss events; small minds discuss people. \nEleanor Roosevelt </item>
+        <item>If you don\'t value your time, neither will others. Stop giving away your time and talents- start charging for it. \nKim Garst   </item>
+        <item>No one can make you feel inferior without your consent. \nEleanor Roosevelt  </item>
+        <item>The ones who are crazy enough to think they can change the world, are the ones that do. \nAnonymous  </item>
+        <item>What seems to us as bitter trials are often blessings in disguise.\n Oscar Wilde </item>
+        <item>When you stop chasing the wrong things you give the right things a chance to catch you. \nLolly Daskal   </item>
+        <item>Don\'t be afraid to give up the good to go for the great. \nJohn D. Rockefeller  </item>
+        <item>If you can\'t explain it simply, you don\'t understand it well enough.  \nAlbert Einstein    </item>
+        <item>Life is not about finding yourself. Life is about creating yourself. \nLolly Daskal  </item>
+        <item>I find that the harder I work, the more luck I seem to have. \nThomas Jefferson  </item>
+        <item>The starting point of all achievement is desire. \nNapolean Hill </item>
+        <item>We become what we think about most of the time, and that\'s the strangest secret. \nEarl Nightingale </item>
+        <item>The only place where success comes before work is in the dictionary. \nVidal Sassoon </item>
+        <item>"Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it.
+\nBruce Lee"   </item>
+
+
+
+    </string-array>
+</resources>

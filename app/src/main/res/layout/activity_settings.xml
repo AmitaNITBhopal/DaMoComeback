@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textViewScreenheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:editable="false"
+        android:gravity="start"
+        android:text="Settings"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/textViewheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:editable="false"
+            android:gravity="start"
+            android:text="Background"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black" />
+
+        <View
+            android:id="@+id/headerdivider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/textViewheading"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textViewSubHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/headerdivider"
+            android:editable="false"
+            android:gravity="left"
+            android:text="Set background image"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/textViewContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewSubHeading"
+            android:editable="false"
+            android:gravity="left"
+            android:text="@string/bgImageText"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/bkgChipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewContent"
+            android:layout_weight="1">
+        </com.google.android.material.chip.ChipGroup>
+
+        <Switch
+            android:id="@+id/switchBkg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textViewSubHeading"
+            android:layout_alignRight="@id/textViewSubHeading"
+            android:layout_weight="1"
+            android:onClick="onSwitchClicked"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textOff="Default"
+            android:textOn="Custom"
+            tools:visibility="visible" />
+    </RelativeLayout>
+
+   <!-- <LinearLayout
+        android:id="@+id/row1Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="2dp">
+        //11
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:background="@color/colorAccent"
+            android:paddingRight="2dp"
+            app:srcCompat="@drawable/ic_filter_1_black_24dp" />
+
+        //12
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@drawable/ic_filter_2_black_24dp" />
+
+        //13
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:background="@color/colorAccent"
+            android:paddingLeft="2dp"
+            app:srcCompat="@drawable/ic_filter_3_black_24dp" />
+    </LinearLayout>
+
+    //Row2
+
+    <LinearLayout
+        android:id="@+id/row21Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        //21
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:background="@color/colorAccent"
+            android:paddingRight="2dp"
+            app:srcCompat="@drawable/ic_filter_4_black_24dp" />
+        //22
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@drawable/ic_filter_5_black_24dp" />
+        //23
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:background="@color/colorAccent"
+            android:paddingLeft="2dp"
+            app:srcCompat="@drawable/ic_filter_6_black_24dp" />
+    </LinearLayout>
+    //Row3
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:background="@color/colorAccent"
+        android:padding="2dp"
+        app:srcCompat="@drawable/ic_filter_7_black_24dp" />-->
+
+    //Row4
+
+    <ProgressBar
+        android:id="@+id/pBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:background="@color/colorPrimary"
+        android:theme="@style/progressColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+</LinearLayout>

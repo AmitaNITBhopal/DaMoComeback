@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DaMo</string>
+    <string name="abc">Dummy</string>
+    <string name="splash_message">Daily Motivation</string>
+    <string name="action_settings">Settings</string>
+    <string name="share_app">Share App</string>
+    <string name="alarmtitle">DaMo Daily Motivation Alarm</string>
+    <string name="alarmmesage">New motivation just for you!</string>
+    <string name="shareapp_message">I found this app useful, try it out for Daily Motivation, https://play.google.com/store/apps/details?id=com.PalasaFamily.DaMo </string>
+    <string name="share_screenshot_message">Sharing via app DaMo Daily Motivation</string>
+    <string name="SharedPreferenceFile">preferences</string>
+    <string name="amarmstate">AlarmSate</string>
+    <string name="setalarmon">  Set Alarm On  </string>
+    <string name="setalarmoff">  Set Alarm Off  </string>
+    <string name="customBgState">customBgState</string>
+    <string name="imagepath">imagepath</string>
+    <string name="defaultPath">defaultPath</string>
+    <string name="bgImageText">Click on + sign to add 7 images of your choice as app background</string>
+
+</resources>
+

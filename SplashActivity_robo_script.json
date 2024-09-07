@@ -1,0 +1,55 @@
+[
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1587854236178,
+    "actionCode": -1,
+    "delayTime": 7000,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1587854267798,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.view.menu.ActionMenuItemView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "com.example.mygallery:id/action_favorite",
+        "contentDescription": "Dummy",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ActionMenuView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.Toolbar",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "com.example.mygallery:id/toolbar",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1587854341354,
+    "actionCode": -1,
+    "delayTime": 7000,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  }
+]

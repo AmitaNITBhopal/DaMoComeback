@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="current_quotes">
+        <item>current_quotes0</item>
+        <item>current_quotes1</item>
+        <item>current_quotes2</item>
+        <item>current_quotes3</item>
+        <item>current_quotes4</item>
+    </string-array>
+</resources>
+

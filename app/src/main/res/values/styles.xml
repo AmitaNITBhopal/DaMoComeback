@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+
+        <!-- Must Add for toolbar  -->
+
+    </style>
+    <style name="progressColor" parent="Widget.AppCompat.ProgressBar">
+        <item name="colorControlActivated">@color/progressBarColor</item>
+    </style>
+
+    <style name="Actionbar.bar" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="colorPrimary">@color/transparent</item>
+    </style>
+    <style name="CustomChip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipCornerRadius">12dp</item>
+        <item name="chipMinHeight">72dp</item>
+        <item name="chipSpacing">2dp</item>
+        <item name="chipStartPadding">5dp</item>
+        <item name="chipIconSize">60dp</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation
+        duration. -->
+
+        <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated
+             drawable. One of these is required. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_no_bg</item>
+        <!-- Required for animated icons. -->
+        <item name="windowSplashScreenAnimationDuration">200</item>
+
+        <!-- Set the theme of the Activity that directly follows your splash
+        screen. This is required. -->
+        <item name="postSplashScreenTheme">@style/AppTheme</item>
+    </style>
+
+</resources>

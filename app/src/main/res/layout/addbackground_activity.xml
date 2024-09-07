@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    //Row1
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="Add Background Images"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:id="@+id/row1Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="2dp">
+        //11
+
+        <RelativeLayout
+            android:id="@+id/RL11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:onClick="onAddButtonHL1Clicked"
+                app:srcCompat="@drawable/ic_addpic" />
+        </RelativeLayout>
+        //2
+
+        <RelativeLayout
+            android:id="@+id/RL12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:onClick="onAddButtonHL2Clicked"
+                app:srcCompat="@drawable/ic_addpic" />
+        </RelativeLayout>
+        //3
+
+        <RelativeLayout
+            android:id="@+id/RL13"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:onClick="onAddButtonHL3Clicked"
+                app:srcCompat="@drawable/ic_addpic" />
+        </RelativeLayout>
+    </LinearLayout>
+    //Row2
+
+    <LinearLayout
+        android:id="@+id/row21Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        //21
+
+        <RelativeLayout
+            android:id="@+id/RL21"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:onClick="onAddButtonHL4Clicked"
+                app:srcCompat="@drawable/ic_addpic" />
+        </RelativeLayout>
+        //22
+
+        <RelativeLayout
+            android:id="@+id/RL22"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageButton
+                android:id="@+id/imageButton22"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:onClick="onAddButtonHL5Clicked"
+                app:srcCompat="@drawable/ic_addpic" />
+        </RelativeLayout>
+        //23
+
+        <RelativeLayout
+            android:id="@+id/RL23"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageButton
+                android:id="@+id/imageButton23"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:onClick="onAddButtonHL6Clicked"
+                app:srcCompat="@drawable/ic_addpic" />
+        </RelativeLayout>
+    </LinearLayout>
+    //Row3
+
+    <RelativeLayout
+        android:id="@+id/RL1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAccent"
+            android:padding="2dp"
+            android:paddingTop="4dp"
+            app:srcCompat="@drawable/image1" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:onClick="onAddButtonHL1Clicked"
+            app:srcCompat="@drawable/ic_addpic" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:onClick="onApplyButtonClicked"
+            android:text="Apply" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:onClick="onCloseButtonClicked"
+            android:text="Close" />
+    </LinearLayout>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+</LinearLayout>
