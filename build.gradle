@@ -1,7 +1,3 @@
-ext {
-    var = 'MakeMy@pp+1'
-}// Top-level build file where you can add configuration options common to all sub-projects/modules.
-
 buildscript {
     
     ext {
@@ -18,7 +14,6 @@ buildscript {
     }
     dependencies {
         classpath "com.android.tools.build:gradle:$agp_version"
-        classpath 'com.google.gms:google-services:4.4.2'
 
         // Add the Fabric Crashlytics plugin.
 //        classpath 'io.fabric.tools:gradle:1.31.2'
@@ -33,6 +28,10 @@ buildscript {
     }
 }
 
+ext {
+    var = 'MakeMy@pp+1'
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
 allprojects {
     repositories {
         google()
@@ -40,6 +39,8 @@ allprojects {
         
     }
 }
+
+
 
 task clean(type: Delete) {
     delete rootProject.buildDir

@@ -18,7 +18,7 @@ import androidx.core.content.ContextCompat;
 
 public class AppNotification
 {
-    private NotificationManager mNotificationManager;
+    private final NotificationManager mNotificationManager;
     Notification mNotification;
     Service mServiceContext;
 
@@ -85,6 +85,7 @@ public class AppNotification
     }
 
     public void Notify() {
+        Log.d("AppNotification", "To initiate Notification.");
         mNotificationManager.notify(1, mNotification );
         Log.d("AppNotification", "Notification sent.");
     }
